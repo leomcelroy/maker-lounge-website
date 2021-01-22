@@ -1,0 +1,53 @@
+:root {
+	--color: lightgrey;
+} 
+
+html,
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+  	margin: 0px;
+  	overflow: auto;
+  	overscroll-behavior: none; /*this stops the back swipe*/
+}
+
+p {
+	font-size: large;
+}
+
+.container {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	grid-template: 
+		"." auto
+		"main" 1fr
+		/ 1fr;
+}
+
+.main {
+	grid-area: main;
+	overflow: scroll;
+}
+
+.md-container.home img {
+	width: 100%;
+}
+
+.md-container {
+	margin: auto;
+	width: 60%;
+}
+
+.md-container img {
+	width: auto;
+}
+
+pre {
+	background: #80808038;
+    padding: 10px;
+}
+
+img {
+	width: 100%;
+}
