@@ -6,7 +6,7 @@ import marked from 'https://cdn.skypack.dev/marked';
 let text = `
 # Resources
 
-Digital fabrication can generally broken into three stages.
+Digital fabrication can generally be broken into three stages.
 
 CAD => CAM => cut (gcode)
 
@@ -17,7 +17,7 @@ and gcode stands in for the instructions which are interpreted by the machine.
 For each step in the process there are variety of programs available 
 depending on the machine you're targeting and your preferences while crafting the design.
 
-Amoung CAD programs a few gross classifications are 2D vs 3D design tools and parametric vs direct modelling programs.
+Among CAD programs a few gross classifications are 2D vs 3D design tools and parametric vs. direct modelling programs.
 2D CAD programs include vector editors (like Inkscape or Adobe Illustrator or one of the options listed below) and photo editors
 (such as Photoshop or GIMP). Photo editors operate at the pixel level and vector editors function by manipulating 
 mathematical representations of geometry. The latter tends to be more useful for fabrication purposes. 
@@ -79,7 +79,7 @@ web-based,
 freemium
 
 [Easel](https://easel.inventables.com/users/sign_in) -
-Easy to use CAM program,
+easy to use CAM program,
 web-based,
 freemium
 
