@@ -112,7 +112,7 @@ freemium
 
 `
 
-export function md_container() {
+export function resources() {
 	return html`
 		<div class = "md-container">
 			${html([marked(text)])}
