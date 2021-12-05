@@ -1,5 +1,5 @@
 import { html } from '../../libs/lit-html.js';
-import marked from 'https://cdn.skypack.dev/marked';
+import marked from '../../libs/marked.js';
 
 
 
